@@ -61,6 +61,7 @@ body {
     .container {
         flex-direction: column;
         padding: 20px;
+        max-width: 100%;
     }
 
     .left,
@@ -74,7 +75,16 @@ body {
         margin-top: 20px;
     }
 
+    .left img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
     .right p {
         text-align: justify;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
