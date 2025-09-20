@@ -87,4 +87,59 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
+}
+
+.conference-refs-inside {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+
+.conference-refs {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.conference-refs li {
+    margin-bottom: 12px;
+    padding-left: 10px;
+    border-left: 3px solid #4a90e2;
+}
+
+.conference-refs a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.conference-refs a:hover {
+    color: #2d6fb6;
+}
+
+.right h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.downloads a {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.right p.abstract-text {
+    text-align: left !important;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .right p.abstract-text {
+        text-align: center !important;
+    }
 }
