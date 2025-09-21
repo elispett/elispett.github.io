@@ -7,6 +7,7 @@ body {
 
 body.conference-page .container {
     max-width: 1500px; /* instead of 900px */
+    margin: 0 15px;
 }
 
 .container {
@@ -140,7 +141,7 @@ body.conference-page .container {
 
 .right p.abstract-text {
     text-align: left !important;
-    margin: 0 auto;
+    margin: 0;
     max-width: 600px;
 }
 
