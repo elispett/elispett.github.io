@@ -5,6 +5,10 @@ body {
     color: #222;
 }
 
+body.conference-page .container {
+    max-width: 1500px; /* instead of 900px */
+}
+
 .container {
     display: flex;
     max-width: 900px;
@@ -90,6 +94,7 @@ body {
 
 }
 
+
 .conference-refs-inside {
     list-style: none;
     padding-left: 0;
@@ -131,6 +136,7 @@ body {
     display: inline-block;
     margin-bottom: 10px;
 }
+
 
 .right p.abstract-text {
     text-align: left !important;
