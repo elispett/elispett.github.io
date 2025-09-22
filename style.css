@@ -95,6 +95,28 @@ body.conference-page .container {
 
 }
 
+.profile-photo {
+    display: inline-block;
+    margin: 0;
+}
+
+.profile-photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-photo figcaption {
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+    margin-top: 8px;
+    text-align: center;
+}
+
 
 .conference-refs-inside {
     text-align: left;
